@@ -1,0 +1,53 @@
+p {
+    font-size: 20px;
+    font-family:Courier New;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.pv {
+    color: #904E55;
+}
+
+.db {
+    color: #BAA898;
+}
+
+.my {
+    color: #C2847A;
+}
+
+.rs {
+    color: #BFB48F;
+}
+
+.es {
+    color: #848586;
+}
+
+.wz {
+    color: #E3D081;
+}
+
+.instruction {
+    color: #280003;
+}
+
+.first {
+    text-indent: 20px;
+}
+
+.title{
+    font-family:Courier New;
+    letter-spacing: 10px;
+}
+
+.center{
+    position: absolute; top: 0; left: o; text-align: center; border: 1px solid #ccc; height: 100%; vertical-align: middle;
+}
+#special-paragraph {
+    font-size: 50px;
+}
