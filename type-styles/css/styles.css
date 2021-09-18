@@ -1,0 +1,108 @@
+html {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+  }
+
+  h1 {
+      color:darkgoldenrod;
+      letter-spacing: -0.02em;
+      text-transform: capitalize;
+      text-indent: -1rem;
+      font-family: 'Raleway', sans-serif;  
+      font-size: 50pt;
+}
+
+.header{
+    color:whitesmoke;
+}
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.pt{
+    letter-spacing: 10pt;
+}
+
+.em{
+    letter-spacing: -0.04em;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration:overline;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.highlight{
+    text-emphasis-color: cornflowerblue;
+}
+
+body {
+     margin: 10%;
+}
+
+p {
+    font-size: 24pt;
+    line-height: 1.4;
+}
+
+sup {
+    font-size: 60%;
+}
+
+dfn {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+small {
+    font-style: italic;
+}
+
+aside {
+    text-align: center;
+}
+
+cite {
+    text-align: right;
+    display:block;
+}
+
+article{
+    margin: 6rem 0;
+}
+
+section{
+    margin: 2.5em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+code {
+    color: rgb(241, 153, 158);
+}
