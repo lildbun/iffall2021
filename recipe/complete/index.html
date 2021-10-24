@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Macaron</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/pgc4nei.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <header>
+        
+    </header>
+    <body>
+        <div id="title" class="slide header">
+            <h1 class="fade-in">MACARON</h1>
+            <section id="section05" class="demo">
+            
+                <a href="#section06"><span></span>Scroll</a>
+              </section>
+          </div>
+          
+          
+
+
+
+
+          <div id="slide1" class="slide">
+            <div class="title">
+              <p>The macaron is traditionally held to have been introduced in France by the Italian chef of queen Catherine de Medici during the Renaissance. Back then, they were rather humbly called “priests’ bellybuttons” due to the shape of the pastry. Since the 19th century, a typical Parisian-style macaron is presented with a ganache, buttercream or jam filling sandwiched between two such cookies, akin to a sandwich cookie. The confection is characterized by a smooth squared top, a ruffled circumference—referred to as the “crown” or “foot”—and a flat base. It is mildly moist and easily melts in the mouth. Macarons can be found in a wide variety of flavours that range from traditional (raspberry, chocolate) to unusual (foie gras, matcha).</p>
+            </div>
+            
+            <div id="slideshow1"  class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="images/plate.jpeg"alt="1" style="max-width:60%;height:auto;">
+                 
+                  
+                </div>
+                <div class="recipe">recipe</div>
+                  <div class="text">This easy macaron recipe creates elegant cookies in soft, sherbet-toned hues for a beautiful dessert presentation. Our French macarons recipe includes a basic macaron filling and ingredients for an array of flavors and colors.</div>
+                
+                <div class="mySlides fade">
+                 
+                  <img src="images/plate2.jpg"alt="2" style="max-width:60%;height:auto;">
+                  <div class="recipe">recipe</div>
+                  <div class="text">This easy macaron recipe creates elegant cookies in soft, sherbet-toned hues for a beautiful dessert presentation. Our French macarons recipe includes a basic macaron filling and ingredients for an array of flavors and colors.</div>
+
+                </div>
+                
+                <div class="mySlides fade">
+                  
+                  <img src="images/plate3.jpg"alt="3" style="max-width:60%;height:auto;">
+                  <div class="recipe">recipe</div>
+                  <div class="text">This easy macaron recipe creates elegant cookies in soft, sherbet-toned hues for a beautiful dessert presentation. Our French macarons recipe includes a basic macaron filling and ingredients for an array of flavors and colors.</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+                <a class="next" onclick="plusSlides(1)"> &#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                </script>
+
+
+          </div>
+
+
+
+          
+          <div id="slide2" class="slide">
+            <div class="title2 wrapper">
+              <p> 
+                  <button class="button">SAVE IT</button>
+                  <button class="button">PRINT IT</button><br><br><br>
+                  <span class="preheat">★&nbsp;&nbsp;Yields 35 cookies</span><br>
+                  <span class="preheat">★&nbsp;&nbsp;Prep time 5 minutes</span><br>
+                  <span class="preheat">★&nbsp;&nbsp;Cook time 1 hour 10 minutes</span><br><br>
+                  <span class="preheat">Preheat oven to 325 degrees. The key to this recipe is in the preparation – have all ingredients measured and ready before you begin. Separate the eggs whites and keep at room temperature until ready to incorporate.</span>
+              </p>
+              
+              <p class="ytv"> 
+                  <a href="https://www.youtube.com/watch?v=2UUGWPkIVPU"><img src="images/play.jpg" width="400px"50% alt="mobile1"class="play"></a><span class="wv">WATCH VIDEO</span> 
+                </p>
+                   
+    
+            </div>
+            <div class="title3 wrapper">
+                <p class="underline">
+                    <span>Egg Whites            (100g 3 large eggs)</span>
+                    
+                   <span>Granulated Sugar           (90g 1/2 cup)</span> 
+                    
+                   <span>Powdered Sugar         (130g 1 cup)</span> 
+                    
+                   <span>Vanilla      (5ml 1 tsp)</span>
+                    
+                   <span>Almond Flour          (800mg 1/4 tsp)</span> 
+               </p>
+               <h2>{Ingredients}</h2>
+            </div>
+            <div class="title2 wrapper">
+                <h2 class="right">{Instruction}</h2>
+                <p>1.Sift the confectioners sugar and almond flour into a bowl.<br>
+    
+                        2. Add the room temperature egg whites into a very clean bowl.<br>
+                        
+                        3. Using an electric mixer, whisk egg whites. Once they begin to foam add the cream of tartar and then SLOWLY add the granulated sugar.<br>
+                        
+                        4. Add the food coloring (if desired) and vanilla then mix in. Continue to beat until stiff peaks form.<br>
+                        
+                        5. Begin folding in the 1/3 of the dry ingredients.<br>
+                        
+                        6. Be careful to add the remaining dry ingredients and fold gently.<br>
+                        
+                        7. The final mixture should look like flowing lava, and be able to fall into a figure eight without breaking. Spoon into a piping bag with a medium round piping tip and you’re ready to start piping.<br>
+                        
+                        8. Pipe one inch dollops onto a baking sheet lined with parchment paper (this should be glued down with dabs of batter). Tap on counter several times to release air bubbles. Allow to sit for about 40 minutes before placing in oven.<br>
+                        
+                        9. Bake at 300F for 12-15 minutes, rotate tray after 7 minutes. Allow to cool completely before removing from baking sheet.<br>
+                </p>
+              </div>
+            <div class="title2 wrapper">
+                <h3 class="right">For the French Buttercream Filling</h3>
+                <p>1. Combine sugar and water in medium saucepan. Heat over low heat while stirring until sugar dissolves. Increase heat to medium- high and bring to boil.<br>
+
+                    2. Put egg yolks in a stand-mixer fitted with a whisk attachment and beat until thick and foamy.<br>
+                    
+                    3. Cook the sugar and water syrup until it reaches 240 degrees F. Immediately remove from heat. With mixer running, SLOWLY drizzle hot syrup into bowl with yolks.<br>
+                    
+                    4. Continue mixing until the bottom of the bowl is cool to the touch and the yolk mixture has cooled to room temperature.<br>
+                    
+                    5. Add in butter one cube at a time allowing each piece to incorporate before adding the next. Add vanilla and salt. Continue mixing until buttercream is smooth and creamy. (About 5-6 minutes.) Add food coloring if desired.
+               </p>
+            </div>
+            <div class="title2 wrapper">
+                <p class="right">Pipe your filling onto the back of half the shells. Form a sandwich and repeat. Macarons should be aged in the fridge for 1-3 days for best results. This allows the filling to soften the shells inside.</p>
+               <h3>For Assembly</h3>
+            </div>
+            <hr class="none">
+
+          </div>
+          
+
+
+
+    
+          
+          <div id="slide4" class="slide5">
+            <div class="content-wrapper"> 
+                
+                <div class="grid-container"> 
+                  
+                  <div class="thumb">
+                    <img src="images/0102.jpeg" alt="0102" class="img-fluid">
+                    <h4>STEP ONE</h4>
+                  </div>
+                  
+                  <div class="thumb">
+                    <img src="images/03.jpeg" alt="03" class="img-fluid">
+                    <h4>STEP THREE</h4>
+                  </div>
+                  
+                  <div class="thumb">
+                    <img src="images/0406.jpeg" alt="0406" class="img-fluid">
+                    <h4>STEP FOUR</h4>
+                  </div>
+                  
+                  <div class="thumb">
+                    <img src="images/07.jpeg"  alt="07" class="img-fluid">
+                    <h4>STEP SEVEN</h4>
+                  </div>
+                  
+                  <div class="thumb">
+                    <img src="images/08.jpeg" alt="08" class="img-fluid">
+                    <h4>STEP EIGHT</h4>
+                  </div>
+                  
+                  <div class="thumb">
+                    <img src="images/09.jpeg" alt="09" class="img-fluid">
+                    <h4>STEP NINE</h4>
+                  </div>
+                  
+                </div> 
+              </div> 
+             
+              <div class="contain">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <button class="btn">
+                  <i class="fa fa-facebook" style="font-size:35px;"></i>
+                </button>
+                <button class="btn">
+                  <i class="fa fa-instagram" style="font-size:35px;"></i>
+                </button>
+                <button class="btn">
+                  <i class="fa fa-twitter" style="font-size:35px;"></i>
+              
+               </div>
+               
+               
+             
+             <p class="footer2 share">RECIPE FROM BROMA, "FOOLPROOF MACARON RECIPE"</p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p> &nbsp; </p>
+             <p class="sharethispage">SHARE THIS PAGE</p>
+              <p class="footer">Copyright 2021. ALL RIGHTS RESERVED</p>
+              
+          </div>
+          
+    </body>
+</html>
+
