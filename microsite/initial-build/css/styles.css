@@ -1,0 +1,224 @@
+ body{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding:0;
+}
+header{
+    padding:20px;
+}
+
+ul{
+margin:0;
+padding:0;
+position: fixed;
+width: 1000px;
+z-index: 100;
+
+}
+
+li{
+    display:inline;
+    padding:8px;
+    float: none;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+  padding: 2%;
+  left: 3%;
+  
+   
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+     transition: .3s;
+}
+
+
+.home{
+    background: url(https://i.ibb.co/Q9Kzwvt/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+.title{
+    font-size: 62pt;
+    letter-spacing: 23px;
+    color:white;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 85px;
+    padding-top: 101px;
+    
+    
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+
+.white{
+    top: 78px;
+    padding-top: 20px;
+    position: relative;
+    background-color: white;
+    
+}
+
+h2{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    font-size:15px;
+    color: white;
+    padding-top:10px;
+    padding-left: 90px;
+    padding-right: 85px;
+    width: 300px;
+    text-align: justify;
+    margin-top: -33px;
+    
+}
+
+#intro{
+    display: grid;
+    grid-template-columns: 680px 680px 100px;
+    grid-gap: 10px;
+}
+
+#intro p{
+    width:500px;    
+    padding-top:25px;
+    padding-bottom:100px;
+}
+
+footer{
+    color: grey;
+    z-index: 3px;
+}
+.img1{
+    padding-right:120px;
+}
+.p1{
+    padding-left:120px;
+}
+
+.history{
+    padding-top:55px;
+    padding-bottom:100px;
+    padding-right:120px;
+    padding-left:120px;
+    margin-top: 380px;
+
+}
+
+.history p{
+    width:500px;
+}
+
+.history1{
+    
+    color: black;
+    padding-top: 30px;
+    font-size: 50px;
+    width:100px;
+    padding-left: 10px;
+    z-index: 999;
+}
+
+.historybg{
+    background: url(https://sob_dev.s3.amazonaws.com/history/images/ratio_16_9_large/x2010.11.941.jpg?itok=JcNyPIFK) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.offbg{
+    background: url(https://media.swncdn.com/via/6096-inside-a-broadway-theater-peter-lewickiunspla.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.covidbg{
+    background: url(https://i.ibb.co/3k6p7bk/vogue.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.sdbg{
+    background: url(https://www.hollywoodreporter.com/wp-content/uploads/2020/03/walter_kerr_theater_broadway_march_22_2020.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.sd{
+    padding-top:55px;
+    padding-bottom:362px;
+    padding-right:120px;
+    padding-left:120px;
+    margin-top: 380px;
+
+}
+.sd p{
+    width:500px;}
+
