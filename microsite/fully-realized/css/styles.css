@@ -1,0 +1,452 @@
+ body{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding:0;
+}
+html{
+    background-color: white;
+}
+
+
+
+
+
+header{
+    padding:20px;
+    overflow: hidden;
+}
+
+
+
+
+.title { }
+
+  @media (max-width: 500px) {
+    .title { display: none; }
+  }
+
+.pi { }
+
+  @media (max-width: 500px) {
+    .pi { display: none; }
+  }
+
+
+
+
+
+@media (max-width: 500px) {
+  nav li {
+  display: block;
+    width: 100%;
+    text-indent: 20px;
+    padding: 5px 0;
+    padding-top: 70px;
+    font-size: 50px;
+    
+    
+}
+
+nav {
+  padding: 10px 0 0 0;
+  
+  
+}
+}
+
+nav li:hover {
+  background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+nav{
+margin:0;
+padding:0;
+
+width: 1000px;
+z-index: 100;
+
+
+
+}
+
+li{
+    display:inline;
+    padding:8px;
+    float: none;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+  padding: 2%;
+  left: 3%;
+  
+   
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+     transition: .3s;
+}
+
+
+.home{
+    background: url(https://i.ibb.co/Q9Kzwvt/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+
+
+
+
+h1{
+    font-size: 62pt;
+    letter-spacing: 23px;
+    color:white;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 85px;
+    padding-top: 101px;
+    display: block;
+    
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+
+.white{
+    top: 78px;
+    padding-top: 20px;
+    position: relative;
+    background-color: white;
+    
+}
+
+
+
+
+
+h2{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    font-size:15px;
+    color: white;
+    padding-top:10px;
+    padding-left: 90px;
+    padding-right: 85px;
+   
+    text-align: justify;
+    margin-top: -33px;
+    
+}
+
+.pi{
+  width: 400px;
+}
+
+.pi { width: 400px; }
+
+  @media (min-width: 1px) {
+    .pi { width:45%; }
+  }
+
+.pi { font-size:25px }
+
+  @media (min-width: 480px) {
+    .pi { font-size:15px }
+  }
+
+
+#intro p{
+    width:500px;    
+    padding-top:25px;
+    padding-bottom:100px;
+
+}
+
+
+
+
+#intro p { width: 85% }
+
+  @media (min-width: 480px) {
+    #intro p { width:35%; }
+  }
+
+
+
+
+
+
+
+footer{
+    color: grey;
+    z-index: 3px;
+    text-indent: 20px;
+}
+.img1{
+    padding-right:120px;
+}
+.p1{
+  padding-left:120px;
+}
+
+.p1{ padding-left: 120px; }
+
+  @media (max-width: 480px) {
+    .p1{ padding-left:40px; }
+  } 
+
+.p1{}
+
+  @media (max-width: 480px) {
+    .p1{ font-size:30px; }
+  } 
+
+
+.history{
+    padding-top:55px;
+    padding-bottom:100px;
+   
+    margin-top: 380px;
+}
+
+.p2{ padding-left: 120px; }
+
+  @media (max-width: 480px) {
+    .p2{ padding-left:40px; }
+  } 
+
+.p2{}
+
+  @media (max-width: 480px) {
+    .p2{ font-size:30px; }
+  } 
+
+
+
+
+
+
+
+
+
+.history1{
+    
+    color: black;
+    padding-top: 30px;
+    font-size: 50px;
+    width:100px;
+    
+    z-index: 999;
+}
+
+
+.history1{ padding-left: 120px; }
+
+  @media (max-width: 480px) {
+    .history1{ padding-left:20px; }
+  } 
+
+.history1{ font-size: 50px; }
+
+  @media (max-width: 480px) {
+    .history1{ font-size: 30px; }
+  } 
+
+
+.history1{ width:100px; }
+
+  @media (max-width: 480px) {
+    .history1{ width:30px; }
+  } 
+
+
+
+.historybg{
+    background: url(https://sob_dev.s3.amazonaws.com/history/images/ratio_16_9_large/x2010.11.941.jpg?itok=JcNyPIFK) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.offbg{
+    background: url(https://media.swncdn.com/via/6096-inside-a-broadway-theater-peter-lewickiunspla.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.covidbg{
+    background: url(https://pyxis.nymag.com/v1/imgs/dec/5dc/293807bc39584557909b38f777ee2fb3e2-broadway-task-force.2x.rhorizontal.w700.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.sdbg{
+    background: url(https://www.hollywoodreporter.com/wp-content/uploads/2020/03/walter_kerr_theater_broadway_march_22_2020.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.sd{
+    padding-top:55px;
+    padding-bottom:362px;
+    padding-right:120px;
+    padding-left:120px;
+    margin-top: 380px;
+
+}
+.sd p{
+    width:500px;}
+
+
+
+
+
+    .imageGrid {
+      line-height: 0;
+    }
+    .imageGrid .tile {
+      width:33.33%;
+      min-height:20em;
+      line-height: 1.2;
+      display:inline-block;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      position: relative;
+      
+      color:#fff;
+      text-shadow: 2px 2px 2px #000;
+      cursor: pointer; 
+      cursor: hand;
+    }
+    
+    .imageGrid .tile:before {
+      content: '';
+      background-color: rgba(15,15,15,0.5);
+      display: block;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position: absolute;
+    }
+    
+    .imageGrid .tile:hover:before {
+      display: none;
+    }
+    
+    .imageGrid .tile .textWrapper {
+      text-align: center;
+      vertical-align: middle;
+      width: 80%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+         font-family: futura-pt,sans-serif;
+       font-weight: 400;
+       font-style: normal;
+    }
+    
+    .imageGrid .tile .textWrapper .content {
+      display: none;
+    }
+    
+    .imageGrid .tile:hover .textWrapper .content {
+      display: block;
+    }
+    
+    .imageGrid .tile:hover .textWrapper .content h2 {
+      margin: 0;
+    }
+    
+    @media (max-width: 1000px) {
+      .imageGrid .tile {
+        width: 50%;
+      }
+    }
+     
+    @media (max-width: 700px) {
+      .imageGrid .tile {
+        width: 100%;
+      }
+      
+    }
+
+
+
+  .sub{
+    font-size: 30px;
+    text-align: center;
+  }
